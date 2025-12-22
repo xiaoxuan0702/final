@@ -89,6 +89,9 @@
 
 透過上述功能設計，本系統能有效支援學生社團的日常管理需求，提升行政效率，並提供使用者良好的操作體驗。
 
+<img width="5200" height="3363" alt="功能需求分析-2025-12-22-034816" src="https://github.com/user-attachments/assets/d97e7e24-66c4-4c77-9a21-16bcf5e44bb6" />
+
+
 ---
 
 ## 四、系統設計🎨 （System Design）
@@ -151,6 +154,8 @@
 
 透過上述系統設計，本專題能有效支援學生社團管理需求，並具備未來功能擴充與系統升級的彈性。
 
+<img width="4905" height="3905" alt="系統設計-2025-12-22-034540" src="https://github.com/user-attachments/assets/8b702edb-83e8-42ee-9af3-2dbe9dc40e96" />
+
 ---
 
 ## 五、資料庫設計（Database Design）
@@ -211,6 +216,8 @@
 - 方便後續功能擴充，如活動報名、簽到紀錄等
 
 透過上述資料庫設計，本系統能有效支援學生社團管理的各項資料需求，並具備良好的擴充與維護彈性。
+
+<img width="2922" height="4468" alt="資料庫設計-2025-12-22-033243" src="https://github.com/user-attachments/assets/c2199120-9834-453f-a000-7eeb70d3a47f" />
 
 ---
 
