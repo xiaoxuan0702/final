@@ -154,6 +154,8 @@
 
 透過上述系統設計，本專題能有效支援學生社團管理需求，並具備未來功能擴充與系統升級的彈性。
 
+<img width="358" height="699" alt="螢幕擷取畫面 2025-12-24 125423" src="https://github.com/user-attachments/assets/be3aa646-b1a7-4bba-a412-cf53e3ec35c6" />
+
 <img width="4905" height="3905" alt="系統設計-2025-12-22-034540" src="https://github.com/user-attachments/assets/8b702edb-83e8-42ee-9af3-2dbe9dc40e96" />
 
 ---
@@ -216,6 +218,8 @@
 - 方便後續功能擴充，如活動報名、簽到紀錄等
 
 透過上述資料庫設計，本系統能有效支援學生社團管理的各項資料需求，並具備良好的擴充與維護彈性。
+
+<img width="480" height="650" alt="螢幕擷取畫面 2025-12-24 125441" src="https://github.com/user-attachments/assets/8b294a66-585d-4a8f-900c-dbd839b7a4bd" />
 
 <img width="2922" height="4468" alt="資料庫設計-2025-12-22-033243" src="https://github.com/user-attachments/assets/c2199120-9834-453f-a000-7eeb70d3a47f" />
 
