@@ -396,57 +396,65 @@
 本系統採用 前後端分離架構：
 
 🔹 前端
-HTML / CSS / JavaScript
+HTML / CSS / JavaScript  
 🔹 後端（擇一）
 Node.js
 PHP
-Python
+Python  
 🔹 資料庫
 MySQL 或 PostgreSQL
 系統使用 RESTful API 進行資料交換，提升系統延展性與維護性。
 
 ## 🗃️ 資料庫設計（Database Design）
 📍 Users（使用者）
-欄位	說明
-user_id	使用者編號
-name	姓名
-email	電子郵件
-password	密碼
-role	角色（學生/幹部/管理員）
+| 欄位名稱     | 說明                 |
+| -------- | ------------------ |
+| user_id  | 使用者編號（Primary Key） |
+| name     | 姓名                 |
+| email    | 電子郵件（登入帳號）         |
+| password | 密碼（加密儲存）           |
+| role     | 角色（學生 / 幹部 / 管理員）  |
+
 
 📍 Clubs（社團）
-欄位	說明
-club_id	社團編號
-club_name	社團名稱
-description	社團介紹
-leader_id	幹部編號
+| 欄位名稱        | 說明                |
+| ----------- | ----------------- |
+| club_id     | 社團編號（Primary Key） |
+| club_name   | 社團名稱              |
+| description | 社團介紹與宗旨           |
+| leader_id   | 幹部編號（對應 Users）    |
+
 
 📍 Club_Members（社團成員）
-欄位	說明
-id	資料編號
-club_id	所屬社團
-user_id	成員
-join_date	加入日期
+| 欄位名稱      | 說明                |
+| --------- | ----------------- |
+| id        | 資料編號（Primary Key） |
+| club_id   | 所屬社團編號（FK）        |
+| user_id   | 成員編號（FK）          |
+| join_date | 加入日期              |
+
 
 📍 Activities（活動）
-欄位	說明
-activity_id	活動編號
-club_id	主辦社團
-title	活動名稱
-date	活動日期
-description	活動內容
+| 欄位名稱        | 說明                |
+| ----------- | ----------------- |
+| activity_id | 活動編號（Primary Key） |
+| club_id     | 主辦社團編號（FK）        |
+| title       | 活動名稱              |
+| date        | 活動日期              |
+| description | 活動內容說明            |
 
-##🖌️ 介面設計（UI Mockup）
-系統介面設計原則為：
-1.簡潔
-2.直覺
-3.易操作
-4.主要頁面
-5.登入/註冊頁
-6.社團列表頁
-7.社團詳細資訊頁
-8.活動管理頁
-9.個人資料頁
+
+🖌️ 介面設計（UI Mockup）
+系統介面設計原則為：  
+1.簡潔  
+2.直覺  
+3.易操作  
+4.主要頁面  
+5.登入/註冊頁  
+6.社團列表頁  
+7.社團詳細資訊頁  
+8.活動管理頁  
+9.個人資料頁  
 整體風格以 校園科技感 為設計方向。
 
 ## ⭐ 系統特色
