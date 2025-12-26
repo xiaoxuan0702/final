@@ -38,14 +38,11 @@
 ### 🧩 系統設計（System Design）
 本系統採用 前後端分離架構：  
 🔹 前端
-- HTML / CSS / JavaScript  
+- HTML / CSS / JavaScript 
 🔹 後端（擇一）
-- Node.js
-- PHP
-- Python  
+- Node.js / PHP / Python  
 🔹 資料庫（擇一)
-- MySQL
-- PostgreSQL
+- MySQL / PostgreSQL
 系統使用 RESTful API 進行資料交換，提升系統延展性與維護性。
 
 <img width="358" height="699" alt="螢幕擷取畫面 2025-12-24 125423" src="https://github.com/user-attachments/assets/be3aa646-b1a7-4bba-a412-cf53e3ec35c6" />
